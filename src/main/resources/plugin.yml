@@ -1,0 +1,9 @@
+name: CharSpamnt
+version: 1.0
+main: CharSpamnt
+author: Saber
+api-version: 1.18
+permissions:
+  charspamnt.bypass:
+    description: allows you to bypass charspam reduction
+    default: op
