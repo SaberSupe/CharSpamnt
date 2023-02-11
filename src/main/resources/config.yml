@@ -1,0 +1,24 @@
+#Block Character Spam
+blockCharSpam: false
+sendMessageOnBlock: true
+msgOnBlock: "&cCharspamn't"
+
+#Send message to all players with charspamnt.notify permission when charspam is blocked
+notifyOnBlock: true
+#{0} is the spammer's name
+#{1} is the blocked message
+notifyMsgOnBlock: "&e{0} had charspam blocked: {1}"
+
+#Auto Shorten Character Spam
+shortenCharSpam: true
+sendMessageOnShorten: true
+msgOnShorten: "&cCharspam auto-shortened"
+
+#Send message to all players with charspamnt.notify permission when charspam is shortened
+notifyOnShorten: true
+#{0} is the player name
+#{1} is the message prior to shortening
+notifyMsgShorten: "&e{0} had charspam shortened: {1}"
+
+#max Character Spam length
+maxCharacters: 5

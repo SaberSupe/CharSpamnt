@@ -1,9 +1,12 @@
 name: CharSpamnt
 version: 1.0
-main: CharSpamnt
+main: Saber.CharSpamnt
 author: Saber
 api-version: 1.18
 permissions:
   charspamnt.bypass:
     description: allows you to bypass charspam reduction
+    default: op
+  charspamnt.notify:
+    description: players with this permission will be notified when a player attempts to charspam
     default: op
